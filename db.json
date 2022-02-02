@@ -1,0 +1,8 @@
+{
+  "votos": [
+    { "id": 1, "cantVotos": 0, "name": "C1" },
+    { "id": 2, "cantVotos": 0, "name": "C2" },
+    { "id": 3, "cantVotos": 0, "name": "C3" },
+    { "id": 4, "cantVotos": 0, "name": "C4" }
+  ]
+}

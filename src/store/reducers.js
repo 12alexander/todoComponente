@@ -1,12 +1,7 @@
-import { ADD_VOTOS } from "./types";
+import { ADD_VOTOS, GET_VOTOS } from "./types";
 
 const initialState = {
-  votos: [
-    { id: 1, cantVotos: 0 },
-    { id: 2, cantVotos: 0 },
-    { id: 3, cantVotos: 0 },
-    { id: 4, cantVotos: 0 },
-  ],
+  votos: [],
   message: "",
 };
 
@@ -16,6 +11,13 @@ function reducer(state = initialState, action) {
       return {
         ...state,
         votos: action.payload,
+      };
+    case GET_VOTOS:
+      const votos = [...state.votos, ...action.payload];
+
+      return {
+        ...state,
+        votos,
       };
     default:
       return {
