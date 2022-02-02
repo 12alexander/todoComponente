@@ -1,2 +1,4 @@
 export const ADD_VOTOS = "ADD_VOTOS";
 export const GET_VOTOS = "GET_VOTOS";
+export const UPDATE_FILTRO_DATOS = "UPDATE_FILTRO_DATOS";
+export const UPDATE_FILTRO_VOTO = "UPDATE_FILTRO_VOTO";

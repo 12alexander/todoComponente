@@ -1,8 +1,8 @@
 {
   "votos": [
-    { "id": 1, "cantVotos": 0, "name": "C1" },
-    { "id": 2, "cantVotos": 0, "name": "C2" },
-    { "id": 3, "cantVotos": 0, "name": "C3" },
-    { "id": 4, "cantVotos": 0, "name": "C4" }
+    { "id": 1, "cantVotos": 0, "name": "C1", "filtro": false },
+    { "id": 2, "cantVotos": 0, "name": "C2", "filtro": false },
+    { "id": 3, "cantVotos": 0, "name": "C3", "filtro": false },
+    { "id": 4, "cantVotos": 0, "name": "C4", "filtro": false }
   ]
 }
